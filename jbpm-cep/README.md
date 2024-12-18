@@ -9,7 +9,7 @@ This example keeps the structure of the source the same as in the original examp
 
 ### Event Source
 
-The event source is the stock tick sample file provided in the Drools Stock Tick CEP example (`src/main/resources/stocktickstream.dat`):
+The event source is the stock tick sample file provided in the Drools Stock Tick CEP example ([`src/main/resources/stocktickstream.dat`](src/main/resources/stocktickstream.dat)):
 
 ```
 0;SAP;$73.67
@@ -30,7 +30,7 @@ The event source is the stock tick sample file provided in the Drools Stock Tick
 
 ### Smooks Configuration
 
-The Smooks configuration file is found in the root directory of the example (`smooks-config.xml`). It configures the `{https://www.smooks.org/xsd/smooks/csv-1.7.xsd}reader` and the Java bean binding:
+The Smooks configuration file is found in the root directory of the example ([`smooks-config.xml`](smooks-config.xml)). It configures the `{https://www.smooks.org/xsd/smooks/csv-1.7.xsd}reader` and the Java bean binding:
 
 ```xml
 <smooks-resource-list xmlns="https://www.smooks.org/xsd/smooks-2.0.xsd"
